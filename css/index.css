@@ -1,0 +1,39 @@
+@font-face {
+	font-family: "Poster Cut";
+	src: url('../fonts/PosterCutRegular.otf');
+}
+
+h1 {
+	font-family: "Poster Cut";
+}
+
+body {
+	background-image: url('../images/background.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.logoFrame {
+	padding-top: 5%;
+}
+
+#logo, #projectLink, #contactLink {
+	height: 100%;
+	width: 100%;
+}
+
+#contactLink {
+	float: right;
+}
+
+#projectLink, #contactLink {
+	transition: all 2s;
+}
+
+#projectPage {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: all 2s;
+
+}
