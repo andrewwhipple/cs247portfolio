@@ -1,3 +1,7 @@
+@-viewport {
+	height: 100px;
+}
+
 @font-face {
 	font-family: "Poster Cut";
 	src: url('../fonts/PosterCutRegular.otf');
@@ -17,18 +21,35 @@ body {
 	padding-top: 5%;
 }
 
+.bottomButtonFrame {
+	padding-bottom: 2%;
+}
+
+#contactBox {
+	transition: all 2s;
+	
+}
+
+#contactPage {
+	height: 0%;
+	width: 0%;
+	opacity: 1;
+	transition: all 2s;
+}
+
 #logo, #projectLink, #contactLink {
 	height: 100%;
 	width: 100%;
+	transition: all 2s;
+	transition-timing-function: ease-in-out;
 }
 
 #contactLink {
 	float: right;
+	vertical-align: middle;
 }
 
-#projectLink, #contactLink {
-	transition: all 2s;
-}
+
 
 
 .projectPage {
